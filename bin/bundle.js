@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -79,10 +79,10 @@ module.exports = "SHAWN"
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(2);
+var content = __webpack_require__(3);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(4)(content, {});
+var update = __webpack_require__(5)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -100,20 +100,26 @@ if(false) {
 
 /***/ }),
 /* 2 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/gif;base64,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"
+
+/***/ }),
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)();
+exports = module.exports = __webpack_require__(4)();
 // imports
 
 
 // module
-exports.push([module.i, "body{\n    background:pink\n}", ""]);
+exports.push([module.i, "body{\n    background:pink;\n    text-align:center;\n    font-size:32px;\n}", ""]);
 
 // exports
 
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports) {
 
 /*
@@ -169,7 +175,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports) {
 
 /*
@@ -421,11 +427,20 @@ function updateLink(linkElement, obj) {
 
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(1);
-document.write(__webpack_require__(0))
+
+
+var img = document.createElement('img');
+img.src = __webpack_require__(2);
+document.body.appendChild(img);
+var img2 = img.cloneNode(true);
+document.body.appendChild(img2);
+document.write(__webpack_require__(0));
+document.body.appendChild(img.cloneNode(true))
+document.body.appendChild(img.cloneNode(true))
 
 /***/ })
 /******/ ]);
